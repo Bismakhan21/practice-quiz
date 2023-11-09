@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(9, 9, 231), rgb(230, 224, 224));
+}
+
+.container{
+    background-color: rgb(244, 227, 200);
+    border: 3px solid #fff;
+    width: 600px;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+.box{
+    background-image:linear-gradient(to right,rgb(183, 122, 241),rgb(188, 44, 68)) ;
+    width: 595px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#timer{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(243, 239, 233);
+}
+
+div #ques{
+    background-image:linear-gradient(to right,rgb(193, 169, 216),rgb(239, 151, 166)) ;
+    width: 595px;
+    border-radius: 10px;
+    font-size: 28px;
+    padding: 10px;
+    padding-left: 30px;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.checkbox{
+     background-color: rgb(174, 56, 139);
+     padding: 30px;
+     color: #fff;
+     border-radius: 10px;
+     font-size: 25px;
+}
+
+#btn{
+    width: 90px;
+    height: 45px;
+    padding: 5px 12px;
+    font-size: 20px;
+    background-color: rgb(247, 103, 103) ;
+    color: white;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+#btn:disabled {
+    background-color: #aaa8a8 !important;
+    border: 2px solid #aaa8a8;
+}
